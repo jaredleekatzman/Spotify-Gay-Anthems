@@ -358,6 +358,7 @@ def is_top_billboard(song, billboards):
 top_gay_songs = [(song,count) for (song,count) in top_105 if not is_top_billboard(unicode(song,'utf-8'),charts)]
 print top_gay_songs[:5]
 ```
+Now these are songs that make more sense:
 
     [('Stole the Show', 87), ('Firestone', 84), ('Chandelier', 79), ('Wannabe - Radio Edit', 72), ('Believe', 67)]
 
